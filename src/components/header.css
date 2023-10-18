@@ -1,0 +1,89 @@
+/* Define font faces */
+@font-face {
+    font-family: 'Poppins Bold';
+    src: url('Poppins-Bold.ttf') format('truetype');
+    /* Add other font formats (woff, woff2, etc.) for wider browser compatibility */
+}
+
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('Poppins-Light.ttf') format('truetype');
+    /* Add other font formats (woff, woff2, etc.) for wider browser compatibility */
+}
+
+/* Apply styles to header */
+.Header {
+    background-image: url('../assets/img/cover.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    min-height: 100vh; /* Ensure the header takes at least the full viewport height */
+    background-attachment: fixed;
+}
+
+/* Apply styles to header container */
+.header-container {
+    max-width: 70%;
+    margin: auto;
+    padding: 30vh 0;
+    box-sizing: border-box; /* Include padding in width and height calculations */
+}
+
+/* Apply styles to header content */
+.header-content {
+    margin-top: 10vh;
+}
+
+/* Apply styles to bold text */
+.header-content .bold {
+    color: #222222;
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 65px;
+}
+
+/* Apply styles to thin text */
+.header-content .thin {
+    color: #2b2b2b;
+    font-family: 'Poppins Light', sans-serif;
+}
+
+/* Apply styles to shop button */
+.shop-btn {
+    border-radius: 0;
+    padding: 15px 40px;
+    background: #885338;
+    border: none;
+    margin-top: 20px;
+    color: white; /* Set text color to contrast with background */
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background: #222222;
+}
+
+/* Apply styles to header offer container */
+.header-offer {
+    background-color: #dd3838;
+    width: 250px;
+    height: 250px; /* Set a fixed height */
+    border-radius: 50%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Apply styles to offer text */
+.header-offer .up-to,
+.header-offer .percent {
+    text-align: center;
+    font-family: 'Poppins Light', sans-serif;
+    color: white;
+}
+
+.header-offer .percent {
+    font-size: 80px;
+    font-family: 'Poppins Bold', sans-serif;
+}
+

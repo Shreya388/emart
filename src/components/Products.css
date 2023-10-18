@@ -1,0 +1,11 @@
+.Products{
+    padding-bottom: 20vh;
+}
+
+
+.Products .show-img{
+    object-fit: cover !important;
+    height: 500px !important;
+    width: 100% !important;
+    
+}

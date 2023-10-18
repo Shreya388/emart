@@ -1,0 +1,22 @@
+.Footer{
+    background-color: #222222;
+    padding: 30vh;
+}
+
+.footer-heading{
+    font-size: 40px;
+    font-family: Poppins Bold;
+}
+
+
+.footer-tag{
+    font-size: 24px;
+    font-family: Poppins Bold;
+}
+
+
+.footer-link{
+    font-size: 18px;
+    font-family: Poppins light;
+    color: grey;
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Poppins Bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins light;
+    src: url(Poppins-Light.ttf);
+}
+
+
+.topbar{
+    background-color: white !important;
+    padding: 5vh 0;
+    border-bottom: 1px solid #eee;
+}
+
+.alink {
+    font-size: 18px;
+    font-family: Poppins Bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.link {
+    font-size: 18px;
+    font-family: Poppins light;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+
+/* dropdown */
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu{
+    border: 0;
+    border-radius: 0;
+    padding: 73px;
+}
+
+.dropdown-toggle .nav-link{
+    font-family: Poppins light !important;
+}

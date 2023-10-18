@@ -1,0 +1,28 @@
+.category-container{
+    padding: 20vh 0;
+}
+
+.category .heading{
+    font-size: 50px;
+    font-family: Poppins bold;
+}
+
+.category .pre-heading{
+    color: red;
+}
+
+.category-img{
+    object-fit: cover !important;
+    height: 200px !important;
+    width: 100% !important;
+    transition: transform .2s;
+    border-radius: 10%;
+}
+
+.category-img:hover{
+    transform: scale(1.1);
+}
+
+.category-card{
+    border: 0;
+}
