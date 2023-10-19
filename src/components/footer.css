@@ -1,22 +1,66 @@
-.Footer{
-    background-color: #222222;
-    padding: 30vh;
+.sign-up {
+    padding-bottom: 20vh;
 }
 
-.footer-heading{
+.signup-heading {
+    font-size: 50px;
+    font-family: Poppins light;
+}
+
+.signup-content {
+    text-align: center;
+}
+
+.signup-content p {
+    font-family: Poppins light;
+}
+
+.Footer {
+    background-color: #222222;
+    padding: 25vh 2vh;
+}
+
+.Footer li {
+    padding: 0.50vh;
+}
+
+.footer-heading {
     font-size: 40px;
     font-family: Poppins Bold;
 }
 
-
-.footer-tag{
-    font-size: 24px;
+.footer-tag {
+    font-size: 1.2rem;
     font-family: Poppins Bold;
+    padding: 2vh 0;
 }
 
-
-.footer-link{
-    font-size: 18px;
+.footer-link {
+    font-size: 1.10rem;
     font-family: Poppins light;
     color: grey;
+    margin: 20px 0;
+}
+
+.copyright {
+    background: #222222;
+    border-top: 1px solid #333;
+    padding: 4vh 0;
+}
+
+.sign_form {
+    padding: 4vh 0;
+}
+
+.sign_form input {
+    background: #eee;
+    padding: 15px 25px;
+    font-family: Poppins light;
+}
+
+.sign_form button {
+    background-color: #885338;
+    padding: 15px 25px;
+    color: white;
+    font-family: Poppins light;
 }

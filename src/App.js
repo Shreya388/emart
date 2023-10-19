@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import "./App.css";
 import CategorySection from "./components/Categories";
 import Products from "./components/Products";
+import BestSellers from "./components/BestSellers";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <CategorySection />
       <Products />
+      <BestSellers />
       <Footer />
     </div>
   );

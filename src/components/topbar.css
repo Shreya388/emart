@@ -8,7 +8,6 @@
     src: url(Poppins-Light.ttf);
 }
 
-
 .topbar{
     background-color: white !important;
     padding: 5vh 0;
@@ -46,3 +45,6 @@
 .dropdown-toggle .nav-link{
     font-family: Poppins light !important;
 }
+
+
+/* other */

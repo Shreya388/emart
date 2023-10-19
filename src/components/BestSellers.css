@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Poppins Bold;
+    src: url(Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins light;
+    src: url(Poppins-Light.ttf);
+}
+
+
+
+.Products {
+    padding-bottom: 20vh;
+}
+
+.BestSeller .product-img {
+    object-fit: cover !important;
+    height: 45vh !important;
+    width: 100% !important;
+
+}
+
+.BestSeller .pre-heading {
+    color: red;
+}
+
+.BestSeller {
+    padding-bottom: 20vh;
+}
+
+.BestSeller .product-title {
+    font-family: Poppins light;
+    font-size: 20px;
+    padding: 12px 0;
+    height: 7vh;
+}
+
+.BestSeller .product-price {
+    font-family: Poppins Bold;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.BestSeller .heading {
+    font-size: 50px;
+    font-family: Poppins Bold !important;
+}
+
+.big-div {
+    top: 20vh;
+    bottom: 5vh;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-div .big-item {
+    background-size: cover;
+    max-height: 75vh;
+    max-width: 85vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: 0px 25px 68px 0px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: #885338;
+    border-radius: 0px;
+    border: 1px solid #885338;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.close-button:hover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: #885338;
+    border-radius: 0px;
+    border: 1px solid #885338;
+    padding: 10px 10px;
+    font-size: 25px;
+}
+
+.close-button:active {
+    color: white;
+    background-color: #885338;
+    border-radius: 0;
+    border: 1px solid #885338;
+}

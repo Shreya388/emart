@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import "./topbar.css";
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
-
 const Topbar = () => {
-
   const [expanded, setExpanded] = useState(false);
-
 
   return (
     <>
@@ -35,14 +32,11 @@ const Topbar = () => {
                 <NavDropdown.Item href="#action/3.4">More items</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link className="link" href="/about">Blog</Nav.Link>
-              <Nav.Link className="link" href="/contact">About Us</Nav.Link>
+              <Nav.Link className="link" href="/blog">Blog</Nav.Link>
+              <Nav.Link className="link" href="/about">About Us</Nav.Link>
               <Nav.Link className="link" href="/contact">Contact Us</Nav.Link>
-
-
             </Nav>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
     </>

@@ -32,6 +32,8 @@ const CategorySection = () => {
                         </Col>
                     ))}
                 </Row>
+
+                
             </Container>
         </div>
     );
