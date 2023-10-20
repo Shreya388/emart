@@ -25,7 +25,7 @@
 .header-container {
     max-width: 70%;
     margin: auto;
-    padding: 30vh 0;
+    padding: 18vh 0;
     box-sizing: border-box; /* Include padding in width and height calculations */
 }
 
@@ -60,6 +60,19 @@
 
 .shop-btn:hover {
     background: #222222;
+}
+
+.header-content p{
+    color: red;
+    font-size: 1.4rem;
+    font-family: 'Poppins light';
+}
+
+.header-content p > span{
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    font-family: 'Poppins light';
+    text-decoration: line-through;
 }
 
 /* Apply styles to header offer container */

@@ -76,7 +76,7 @@ const BestSellers = () => {
         <Row>
           {imageUrls.map((imageUrl) => (
             <Col lg={3} md={6} sm={12} key={imageUrl.id}>
-              <div className="img-cont pt-4">
+              <div className="img-cont pt-4 p-2">
                 <Card className="border-0" onClick={() => handleCardClick(imageUrl)}>
                   <Card.Img variant="top" src={imageUrl.url} className="product-img" />
                   <Card.Body>

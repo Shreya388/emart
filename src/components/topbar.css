@@ -11,7 +11,11 @@
 .topbar{
     background-color: white !important;
     padding: 5vh 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;    
+}
+
+.topbar {
+    padding: auto 100px !important;
 }
 
 .alink {
@@ -30,7 +34,6 @@
     font-weight: 300;
 }
 
-
 /* dropdown */
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
     display: block;
@@ -39,12 +42,27 @@
 .dropdown-menu{
     border: 0;
     border-radius: 0;
-    padding: 73px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 130px !important;
+    box-shadow: 4px 11px 23px 0px rgb(0 0 0 / 10%);
+    margin-top: 4.8vh !important;
+}
+
+.dropdown-menu > .dropdown-item {
+    background-color: white;
+    font-family: Poppins light;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: white;
+    text-decoration: underline;
 }
 
 .dropdown-toggle .nav-link{
     font-family: Poppins light !important;
 }
 
-
-/* other */

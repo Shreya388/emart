@@ -9,6 +9,7 @@ const Header = () => {
                 <Row>
                     <Col md={12} lg={9} sm={12}>
                         <div className="header-content">
+                            <p>$2.099 <span>$2,500</span></p>
                             <h1 className='display-4 thin'>LIVING ROOM</h1>
                             <h1 className='display-4 bold'>MODERN SOFA</h1>
                             <Button className="shop-btn">SHOP NOW <i className="fa fa-cart-shopping"></i></Button>

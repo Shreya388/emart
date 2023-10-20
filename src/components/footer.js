@@ -23,7 +23,7 @@ const Signup = () => {
             <button type="submit">Subscribe</button>
           </form>
 
-      
+
         </div>
       </Container>
     </div>
@@ -38,8 +38,13 @@ const Footer = () => {
         <Container>
           <Row>
             <Col md={6} lg={4} sm={12}>
-              <h1 className="footer-heading">Contact</h1>
-              <p></p>
+              <h1 className="footer-heading">Get In Touch</h1>
+              <div className="mt-4">
+                <big><i class="fa fa-brands fa-facebook pr-4"></i></big>
+                <big><i class="fa fa-brands fa-twitter pr-4"></i></big>
+                <big><i class="fa fa-brands fa-instagram pr-4"></i></big>
+                <big><i class="fa fa-brands fa-linkedin-in"></i></big>
+              </div>
 
             </Col>
             <Col md={6} lg={2} sm={12}>
