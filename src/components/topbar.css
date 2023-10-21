@@ -8,10 +8,10 @@
     src: url(Poppins-Light.ttf);
 }
 
-.topbar{
+.topbar {
     background-color: white !important;
     padding: 5vh 0;
-    border-bottom: 1px solid #eee;    
+    border-bottom: 1px solid #eee;
 }
 
 .topbar {
@@ -39,7 +39,7 @@
     display: block;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border: 0;
     border-radius: 0;
     padding-top: 50px;
@@ -50,19 +50,45 @@
     margin-top: 4.8vh !important;
 }
 
-.dropdown-menu > .dropdown-item {
+.dropdown-menu>.dropdown-item {
     background-color: white;
     font-family: Poppins light;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
-.dropdown-menu > .dropdown-item:hover {
+.dropdown-menu>.dropdown-item:hover {
     background-color: white;
     text-decoration: underline;
 }
 
-.dropdown-toggle .nav-link{
+.dropdown-toggle .nav-link {
     font-family: Poppins light !important;
 }
 
+.nav-search {
+    margin-right: -28px;
+    border: 1px solid #ebebeb;
+    width: 40vh !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 21px;
+    font-size: 16px;
+    font-family: 'POPPINS LIGHT';
+}
+
+.nav-search:hover{
+    transition: 3s;
+}
+
+.topbar i{
+    cursor: pointer;
+    transition: 5s;
+}
+
+.topbar i:hover{
+    cursor: pointer;
+    color: red;
+}
