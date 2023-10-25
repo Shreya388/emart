@@ -1,12 +1,18 @@
-body {
-    background: no-repeat center center fixed;
-    background-size: cover;
-    height: 100% !important;
+::-webkit-scrollbar {
+    width: 8px; /* Set width of the scrollbar */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff; /* Set color of the track */
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #885338; /* Set color of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555; /* Set color of the thumb on hover */
+}

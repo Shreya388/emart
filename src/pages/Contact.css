@@ -1,0 +1,22 @@
+.contact-head{
+    background-image: url(../assets/img/about-head.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 25rem;
+    width: 100%;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.267);
+    height: 25rem;
+}
+
+.contact-content{
+    padding: 10rem 0;
+}
+
+.contact-content h1{
+    font-size: 2rem;
+    font-family: Poppins Bold;
+}

@@ -1,23 +1,21 @@
-import Topbar from "./components/topbar";
-import Header from "./components/header";
-import Footer from "./components/footer";
 import "./App.css";
-import CategorySection from "./components/Categories";
-import Products from "./components/Products";
-import BestSellers from "./components/BestSellers";
-
-import OfferNav from './components/offernav';
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+// import Footer from "./components/footer";
+// import CategorySection from "./components/Categories";
+// import Products from "./components/Products";
+// import BestSellers from "./components/BestSellers";
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <OfferNav />
-      <Topbar />
-      <Header />
-      <CategorySection />
-      <Products />
-      <BestSellers />
-      <Footer />
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/about" element={ <About/> } />
+        <Route path="/contact" element={ <Contact/> } />
+      </Routes>
     </div>
   );
 }

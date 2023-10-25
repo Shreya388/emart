@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import "./topbar.css";
-import { Navbar, Nav, Container, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   const [expanded, setExpanded] = useState(false);
-
   const [showSearchForm, setShowSearchForm] = useState(false);
 
   const toggleSearchForm = () => {
@@ -36,29 +36,26 @@ const Topbar = () => {
                 <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.4">More items</NavDropdown.Item>
               </NavDropdown>
-
               <Nav.Link className="link" href="/blog">Blog</Nav.Link>
-              <Nav.Link className="link" href="/about">About Us</Nav.Link>
-              <Nav.Link className="link" href="/contact">Contact Us</Nav.Link>
+              <Link to="about"><Nav.Link className="link" href="/about">About Us</Nav.Link></Link>
+              <Link to="contact"><Nav.Link className="link" href="/contact">Contact Us</Nav.Link></Link>
             </Nav>
 
             {showSearchForm && (
               <form action="/search" method="get">
                 <input type="text" id="search" className="nav-search" name="query" placeholder="search term" required />
-                
+
               </form>
             )}
             <div className="search-icon" onClick={toggleSearchForm}>
               <big><i class="fa fa-solid fa-magnifying-glass pr-4"></i></big>
             </div>
 
-
             {/* ... */}
             <big><i class="fa fa-regular fa-user pr-4"></i></big>
             <big><i class="fa fa-regular fa-heart pr-4"></i></big>
             <big><i class="fa fa-solid fa-cart-shopping"></i></big>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
     </>

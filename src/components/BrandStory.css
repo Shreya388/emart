@@ -1,0 +1,43 @@
+.brand-story{
+    padding: 20vh 0;
+}
+
+.brand-img {
+    height: 100%; /* Ensure the image takes up the full width of its container */
+    max-height: 40rem; /* Set maximum width to 10rem */
+    width: 100%;
+    max-width: 33rem; /* Allow the height to adjust proportionally */
+}
+
+.brand-content{
+    background-color: #2b2b2b;
+    height: 40rem;
+    padding: 10em 5em;
+    width: 31rem;
+}
+
+.brand-content h1{
+    font-size: 2rem;
+    font-family: Poppins Bold;
+}
+
+.brand-content p{
+    font-size: 0.9rem;
+    font-family: Poppins light;
+    text-align: justify;
+    color: #d6d6d6;
+}
+
+.buy-btn{
+        border-radius: 0 !important;
+        padding: 15px 40px !important;
+        background: #885338 !important;
+        border: none !important;
+        margin-top: 20px !important;
+        color: white !important; /* Set text color to contrast with background */
+        cursor: pointer !important;
+}
+
+.buy-btn:hover{
+    background: #222222 !important;
+}

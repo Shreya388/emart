@@ -14,7 +14,7 @@ const categories = [
 const CategorySection = () => {
     return (
         <div className="category">
-            <Container className="category-container ">
+            <Container className="category-container">
                 <h1 className="pre-heading">Explore</h1>
                 <h2 className=" mb-4 heading">See Our Categories</h2>
                 <Row>
@@ -32,8 +32,6 @@ const CategorySection = () => {
                         </Col>
                     ))}
                 </Row>
-
-                
             </Container>
         </div>
     );
